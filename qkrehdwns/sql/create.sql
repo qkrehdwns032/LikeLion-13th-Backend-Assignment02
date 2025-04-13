@@ -1,6 +1,6 @@
 use movie;
 
-create table user(
+create table users(
 	id int auto_increment primary key,
     name varchar(20) not null, -- 이름은 반드시 입력해야 하므로 not null사용
     email varchar(30) unique -- 이메일 중복을 방지하기 위해 unique사용
